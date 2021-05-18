@@ -1,0 +1,99 @@
+;;; 
+Export: Release 12.2.0.1.0 - Production on Tue May 18 10:03:22 2021
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 12c Standard Edition Release 12.2.0.1.0 - 64bit Production
+Starting "NAM_ERP_SOL"."SYS_EXPORT_SCHEMA_01":  nam_erp_sol/********@orclpdb directory=nam_erp_sol_dir dumpfile=nam_erp_sol.dmp logfile=nam_erp_sol.log; 
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type SCHEMA_EXPORT/STATISTICS/MARKER
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+>>> DBMS_AW_EXP: SYS.AW$EXPRESS: OLAP not enabled
+>>> DBMS_AW_EXP: SYS.AW$AWMD: OLAP not enabled
+>>> DBMS_AW_EXP: SYS.AW$AWCREATE: OLAP not enabled
+>>> DBMS_AW_EXP: SYS.AW$AWCREATE10G: OLAP not enabled
+>>> DBMS_AW_EXP: SYS.AW$AWXML: OLAP not enabled
+>>> DBMS_AW_EXP: SYS.AW$AWREPORT: OLAP not enabled
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/TABLE/IDENTITY_COLUMN
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+>>> DBMS_AW_EXP: SYS.AW$EXPRESS: OLAP not enabled
+>>> DBMS_AW_EXP: SYS.AW$AWMD: OLAP not enabled
+>>> DBMS_AW_EXP: SYS.AW$AWCREATE: OLAP not enabled
+>>> DBMS_AW_EXP: SYS.AW$AWCREATE10G: OLAP not enabled
+>>> DBMS_AW_EXP: SYS.AW$AWXML: OLAP not enabled
+>>> DBMS_AW_EXP: SYS.AW$AWREPORT: OLAP not enabled
+. . exported "NAM_ERP_SOL"."THANA"                       37.04 KB     533 rows
+. . exported "NAM_ERP_SOL"."COMPANY_INFO"                94.51 KB       1 rows
+. . exported "NAM_ERP_SOL"."MENUS"                       15.07 KB      43 rows
+. . exported "NAM_ERP_SOL"."MODULES"                     524.9 KB       5 rows
+. . exported "NAM_ERP_SOL"."APP_USERS"                   13.03 KB       2 rows
+. . exported "NAM_ERP_SOL"."DISTRICT"                    12.80 KB      64 rows
+. . exported "NAM_ERP_SOL"."SOFTWARE_INFO"               69.33 KB       1 rows
+. . exported "NAM_ERP_SOL"."USER_PRIVILEGES"             11.53 KB      10 rows
+. . exported "NAM_ERP_SOL"."MODULE_MENU_PRIVILEGES"      10.60 KB      43 rows
+. . exported "NAM_ERP_SOL"."EDUCATIONAL_INSTITUTION"     10.85 KB       2 rows
+. . exported "NAM_ERP_SOL"."DESIGNATION"                 10.43 KB       3 rows
+. . exported "NAM_ERP_SOL"."EDUCATION_LEVEL"             10.21 KB      14 rows
+. . exported "NAM_ERP_SOL"."SALARY_SECTORS"              10.03 KB       4 rows
+. . exported "NAM_ERP_SOL"."COMPANY_SECTION_INFO"        9.976 KB       3 rows
+. . exported "NAM_ERP_SOL"."RELIGION"                    9.703 KB       6 rows
+. . exported "NAM_ERP_SOL"."COMPANY_DEPARTMENT_INFO"     9.710 KB       6 rows
+. . exported "NAM_ERP_SOL"."DIVISION"                    9.679 KB       8 rows
+. . exported "NAM_ERP_SOL"."USER_ROLES"                  9.601 KB       4 rows
+. . exported "NAM_ERP_SOL"."COMPANY_BRANCH_INFO"         9.578 KB       2 rows
+. . exported "NAM_ERP_SOL"."LANGUAGES"                   9.109 KB       3 rows
+. . exported "NAM_ERP_SOL"."GRADES"                      9.078 KB       3 rows
+. . exported "NAM_ERP_SOL"."COMPUTER_PROGRAMS"           9.054 KB       2 rows
+. . exported "NAM_ERP_SOL"."EMP"                         8.351 KB       6 rows
+. . exported "NAM_ERP_SOL"."EMPLOYEE_INFORMATION_IMAGE"  6.867 KB       2 rows
+. . exported "NAM_ERP_SOL"."TOTAL_CAL_IG"                6.351 KB       2 rows
+. . exported "NAM_ERP_SOL"."DEPT"                        5.992 KB       3 rows
+. . exported "NAM_ERP_SOL"."TAB1"                        5.507 KB       2 rows
+. . exported "NAM_ERP_SOL"."AGREEMENTS"                      0 KB       0 rows
+. . exported "NAM_ERP_SOL"."BANK_BRANCH_INFO"                0 KB       0 rows
+. . exported "NAM_ERP_SOL"."BANK_INFO"                       0 KB       0 rows
+. . exported "NAM_ERP_SOL"."CUSTOMERS"                       0 KB       0 rows
+. . exported "NAM_ERP_SOL"."EMP_ADDRESS"                     0 KB       0 rows
+. . exported "NAM_ERP_SOL"."EMP_EDUCATION"                   0 KB       0 rows
+. . exported "NAM_ERP_SOL"."EMP_FAMILY"                      0 KB       0 rows
+. . exported "NAM_ERP_SOL"."EMP_INFO"                        0 KB       0 rows
+. . exported "NAM_ERP_SOL"."EMP_IT_LITERACY"                 0 KB       0 rows
+. . exported "NAM_ERP_SOL"."EMP_LANGUAGE"                    0 KB       0 rows
+. . exported "NAM_ERP_SOL"."EMP_REFERENCE"                   0 KB       0 rows
+. . exported "NAM_ERP_SOL"."EMP_SHORT_COURSE"                0 KB       0 rows
+. . exported "NAM_ERP_SOL"."EMP_TRAINING"                    0 KB       0 rows
+. . exported "NAM_ERP_SOL"."EMP_WORK_EXP"                    0 KB       0 rows
+. . exported "NAM_ERP_SOL"."HTMLDB_PLAN_TABLE"               0 KB       0 rows
+. . exported "NAM_ERP_SOL"."INSTALLMENTS"                    0 KB       0 rows
+. . exported "NAM_ERP_SOL"."LAND_SIZE_INFO"                  0 KB       0 rows
+. . exported "NAM_ERP_SOL"."MASUD_TEMP"                      0 KB       0 rows
+. . exported "NAM_ERP_SOL"."MENU_PRIVILEGES"                 0 KB       0 rows
+. . exported "NAM_ERP_SOL"."MONEY_RECEIPTS"                  0 KB       0 rows
+. . exported "NAM_ERP_SOL"."MONEY_TRANSFERS"                 0 KB       0 rows
+. . exported "NAM_ERP_SOL"."SCHEME_INFO"                     0 KB       0 rows
+. . exported "NAM_ERP_SOL"."SHIFT_CHANGE"                    0 KB       0 rows
+. . exported "NAM_ERP_SOL"."SHIFT_INFO"                      0 KB       0 rows
+. . exported "NAM_ERP_SOL"."TOWN_INFO"                       0 KB       0 rows
+. . exported "NAM_ERP_SOL"."TRANSACTIONS"                    0 KB       0 rows
+. . exported "NAM_ERP_SOL"."UTILITY_HEAD"                    0 KB       0 rows
+Master table "NAM_ERP_SOL"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for NAM_ERP_SOL.SYS_EXPORT_SCHEMA_01 is:
+  C:\USERS\MASUD\DESKTOP\ERP\DUMP FILE\NAM_ERP_SOL.DMP
+Job "NAM_ERP_SOL"."SYS_EXPORT_SCHEMA_01" successfully completed at Tue May 18 10:06:01 2021 elapsed 0 00:02:37
